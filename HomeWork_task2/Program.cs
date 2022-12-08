@@ -23,10 +23,10 @@ Console.WriteLine("Введите координаты Z второй точки
 int z2 = Convert.ToInt32(Console.ReadLine());
 
 
-int A = x2 - x1;
-int B = y2 - y1;
-int C = z1 - z2;
+int X = x2 - x1;
+int Y = y2 - y1;
+int Z = z1 - z2;
 
-double length = Math.Sqrt(A * A + B * B + C * C);
+double length = Math.Sqrt(X * X + Y * Y + Z * Z);
 
 Console.WriteLine($"Расстояние между точками = {length}");
